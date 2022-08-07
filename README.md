@@ -1,4 +1,4 @@
 # Lili-Todo-App
 A todo app made with lili.
 
-Written with the 0.1 alpha version of Lili 
+You can use it [here](https://falazi.github.io/Lili-Todo-App)
