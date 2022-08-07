@@ -1,4 +1,130 @@
-x-mark {
+x-markx-mark {
+    background: url('icons/xmark-solid.svg') center no-repeat;
+    bottom: 0;
+    width: 36px;
+    height: 36px;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p,
+button,
+input {
+    font-size: 1rem;
+}
+
+#btn {
+    background-color: hsl(221, 54%, 48%);
+    color: white;
+    border-radius: 0.3rem;
+    border: none;
+    width: 3rem;
+    height: 1.5rem
+}
+
+#btn:hover {
+    background-color: hsl(221, 54%, 58%);
+}
+
+#btn:active {
+    background-color: hsl(221, 54%, 38%);
+}
+
+body {
+    max-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+input[type=checkbox] {
+    outline: 1px solid #ffffff;
+    outline-offset: -0.0rem;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 1rem;
+    transform: scale(1.3);
+}
+
+
+input[type=checkbox]:checked {
+    accent-color: rgb(56, 98, 187)
+}
+
+.edit {
+    background: url('icons/pen-to-square-solid.svg') center no-repeat;
+    bottom: 0;
+    width: 36px;
+    height: 36px;
+}
+
+.remove-btn {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+
+}
+
+img {
+    margin: 0;
+
+    padding: 0;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+.strike {
+    text-decoration: line-through;
+    color: grey;
+}
+
+p {
+    padding: .15rem;
+    width: 100%;
+}
+
+p:focus {
+    padding: .15rem;
+    outline: none;
+    outline: 0.1rem solid hsl(0, 0%, 50%);
+    border-radius: 0.1rem;
+}
+
+
+#input {
+    width: 100%;
+    margin-right: 0.5rem
+}
+
+
+
+#input-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    height: 2rem;
+}
+
+.todoitem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    height: 1.5rem;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+} {
     background: url('icons/xmark-solid.svg') center no-repeat;
     bottom: 0;
     width: 36px;
